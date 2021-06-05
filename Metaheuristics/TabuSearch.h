@@ -1,7 +1,16 @@
+#ifndef TABU_SEARCH_H
+#define TABU_SEARCH_H
+
 #include<iostream>
 #include "../Heuristic.h"
 
 
-class TabuSearch<class TSol> : Heuristic<class TSol> { 
+namespace Metaheuristic {
 
-};
+	class TabuSearch<class TSol> : Heuristic<class TSol> { 
+
+	};
+
+}
+
+#endif
